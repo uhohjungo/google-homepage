@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.nav {
+  display: block;
+  width: 100%;
+  padding: 15px 30px;
+}
+
+ul {
+  text-align: right;
+}
+
+.nav-item {
+  display: inline-grid;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  margin: 5px;
+  vertical-align: middle;
+  /* Note that the items are still no perfectly aligned through the middle.
+  Google Apps icon still has a space beneath it for some reason.*/
+}
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.sign-in-btn {
+    height:30px;
+    width:5.7em;
+    background-color:#4584f1;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+}
+
+.center-block {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  padding: 135px;
+}
+
+.google-logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.search-box {
+  width: 600px;
+  height: 44px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px #a9b1ac;
+  font-size: 16px;
+  padding: 5px 10px 5px 15px;
+}
+
+.search-box:hover{
+  box-shadow: 1px 2px 6px #a9b1ac;
+}
+
+.submit-boxes {
+  padding: 30px;
+}
+
+#submit-box {
+  height: 36px;
+  background-color: #F5F5F5;
+  font-size: 13px;
+  color: #757575;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 2px;
+}
+
+#submit-box:hover {
+    cursor: pointer;
+    border: thin solid;
+}
+
+.language-link {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+.language-link a {
+  text-decoration: none;
+}
+
+.language-link a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  display=block;
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  bottom: 0;
+  position: absolute;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  background-color: #F2F2F2;
+  vertical-align:middle ;
+  padding-right: 15px;
+}
+
+.footer a {
+  color: #666666;
+  text-decoration: none;
+  border: none;
+  line-height: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.right-link {
+  float: right;
+}
